@@ -1,4 +1,4 @@
-import techImage from '../images/tech.jpg'
+import techImage from '../images/tech2.jpg'
 import enterImage from '../images/entertainment.jpg'
 import healthImage from '../images/health.jpg'
 import nationImage from '../images/nation.jpg'
@@ -31,7 +31,7 @@ const News = () => {
         <div className="news-section">
           <div className="headline">
             <img src={techImage} alt="Headline Image" />
-            <h2 className="headline-title">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius.</h2>
+            <h2 className="headline-title">We investigate how powerful GPU&apos;s are being used by Crypto Fraudsters</h2>
           </div>
           <div className="news-grid">
             <div className="news-grid-item">
