@@ -5,6 +5,7 @@ import nationImage from '../images/nation.jpg'
 import scienceImage from '../images/science.jpg'
 import sportImage from '../images/sport.jpg'
 import worldImage from '../images/world.jpg'
+import './News.css'
 
 const News = () => {
   return (
