@@ -60,6 +60,12 @@ const News = () => {
           </div>
         </div>
       </div>
+      <footer>
+        <p className="copyright">
+          <span>The News Today</span>
+          <p>&copy; All Rights Reserved. Designed by NimiraTech</p>
+        </p>
+      </footer>
     </div>
   )
 }
