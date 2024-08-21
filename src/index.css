@@ -15,8 +15,7 @@ html {
 }
 
 :root {
-  --pink-l: #f2dfce;
-  --pink-d: #faafbe;
+  --pink: #f2dfce;
   --light: #fff1e0;
   --dark: #111;
   --grey-l: #ccc;  
@@ -28,7 +27,7 @@ html {
 .container {
   width: 100%;
   height: 100vh;
-  background: var(--pink-l);
+  background: var(--pink);
   display: grid;
   place-items: center; 
 }
