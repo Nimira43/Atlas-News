@@ -14,14 +14,21 @@ html {
   font-size: 62.5%;
 }
 
+:root {
+  --pink-l: #f2dfce;
+  --pink-d: #faafbe;
+  --light: #fff1e0;
+  --dark: #111;
+  --grey-l: #ccc;  
+  --grey-m: #888;
+  --grey-d: #333;
+  --blue: #0d7680;
+}
+
 .container {
   width: 100%;
   height: 100vh;
-  background: linear-gradient(
-    to right,
-    #ddd,
-    #bbb
-  );
+  background: var(--pink-l);
   display: grid;
   place-items: center; 
 }
