@@ -64,8 +64,8 @@ const News = () => {
       <footer>
         <p className="copyright">
           <span>The News Today</span>
-          <p>&copy; All Rights Reserved. Designed by NimiraTech</p>
         </p>
+        <p>&copy; All Rights Reserved. Designed by NimiraTech</p>
       </footer>
     </div>
   )
