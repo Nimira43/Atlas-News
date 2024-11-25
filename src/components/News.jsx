@@ -1,3 +1,13 @@
+import business from '../images/business.jpg'
+import world from '../images/world.jpg'
+import entertainment from '../images/entertainment.jpg'
+import health from '../images/health.jpg'
+import science from '../images/science.jpg'
+import sport from '../images/sport.jpg'
+import tech1 from '../images/tech-1.jpg'
+import tech2 from '../images/tech-2.jpg'
+import tech3 from '../images/tech-3.jpg'
+
 const News = () => {
   return (
     <div className='news-app'>
@@ -21,7 +31,7 @@ const News = () => {
         </nav>
         <div className="news-section">
           <div className="headline">
-            <img src="" alt="Headline Image" />
+            <img src={business} alt="Shanghai" />
           </div>
         </div>
       </div>
