@@ -19,6 +19,11 @@ const News = () => {
             <a href="#" className="nav-link">National</a>
           </div>
         </nav>
+        <div className="news-section">
+          <div className="headline">
+            <img src="" alt="Headline Image" />
+          </div>
+        </div>
       </div>
     </div>
   )
