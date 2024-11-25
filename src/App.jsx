@@ -1,9 +1,7 @@
-import News from "./components/News"
-
-const App = () => {
+function App() {
   return (
-    <div className="container"> 
-      <News />
+    <div>
+      <h1>Global News</h1>
     </div>
   )
 }
