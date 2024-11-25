@@ -40,24 +40,24 @@ const News = () => {
               <h3>Russia Launches Drone Strike on Kyiv Amidst Escalating Tensions</h3>
             </div>
             <div className="news-grid-item">
-              <img src={world} alt="Ukraine" />
-              <h3>Russia Launches Drone Strike on Kyiv Amidst Escalating Tensions</h3>
+              <img src={tech3} alt="Google under Scutiny" />
+              <h3>Google Faces Backlash Over Chrome&apos;s Privacy Changes</h3>
             </div>
             <div className="news-grid-item">
-              <img src={world} alt="Ukraine" />
-              <h3>Russia Launches Drone Strike on Kyiv Amidst Escalating Tensions</h3>
+              <img src={entertainment} alt="Bill Nye and RFK Jr" />
+              <h3>Bill Nye Criticizes RFK Jr.&apos;s Anti-Vaccine Views</h3>
             </div>
             <div className="news-grid-item">
-              <img src={world} alt="Ukraine" />
-              <h3>Russia Launches Drone Strike on Kyiv Amidst Escalating Tensions</h3>
+              <img src={sport} alt="Verstappen World Title" />
+              <h3>Verstappen Seals Fourth World Championship in Las Vegas</h3>
             </div>
             <div className="news-grid-item">
-              <img src={world} alt="Ukraine" />
-              <h3>Russia Launches Drone Strike on Kyiv Amidst Escalating Tensions</h3>
+              <img src={health} alt="Salad" />
+              <h3>Discover the Power of a Balanced Salad for Optimal Health</h3>
             </div>
             <div className="news-grid-item">
-              <img src={world} alt="Ukraine" />
-              <h3>Russia Launches Drone Strike on Kyiv Amidst Escalating Tensions</h3>
+              <img src={science} alt="Mushrooms" />
+              <h3>Scientists Discover Unique Mushroom Cultivation from Apples</h3>
             </div>
           </div>
         </div>
