@@ -1,4 +1,4 @@
-import {Entertainment, Health, Sport, Science, Demo, Science, National, NoImage, World, Tech1, Tech2, Tech3, Tech4} from '../imageIndex'
+// import {Entertainment, Health, Sport, Science, Demo, National, NoImage, World, Tech1, Tech2, Tech3, Tech4} from '../utils/imageIndex'
 
 const News = () => {
   return (
