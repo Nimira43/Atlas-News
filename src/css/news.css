@@ -59,6 +59,13 @@
   margin-bottom: 2rem;
 }
 
+.nav-link {
+  font-size: 1.5rem;
+  color: var(--light);
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+}
+
 .news-section {
   width: 80%;
 }
@@ -102,9 +109,9 @@
     flex-wrap: wrap;
     justify-content: center;
   }
-
-  
-
+  .nav-link {
+    margin-right: 2rem;;
+  }
   .news-section {
     width: 100%;
   }
