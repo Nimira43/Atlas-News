@@ -29,6 +29,13 @@
   color: var(--light);
 }
 
+.news-content {
+  display: flex;
+  column-gap: 2rem;
+  height: calc(100% - 16rem);
+  padding: 0 2rem;
+}
+
 .headline img {
   width: 40rem;
 }
