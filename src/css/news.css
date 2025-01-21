@@ -153,13 +153,21 @@
   .news-section {
     width: 100%;
   }
+  .headline-title {
+    font-size: 2.5rem;
+    font-weight: 400;
+  }
+}
+
+@media (max-width: 830px) {
+  .headline-title {
+    font-size: 2rem;
+  }
 }
 
 @media (max-width: 500px) {
   .navbar {
     height: 20rem;
   }
-  .headline-title {
-    font-size: 2rem;
-  }
+  
 }
