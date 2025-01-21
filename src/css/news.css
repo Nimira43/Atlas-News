@@ -18,14 +18,15 @@
   display: flex;
   align-items: center;
   padding: 0 2rem;
-  color: var(--light);
+  
 }
 
 .logo {
   font-family: 'Caveat', cursive;
-  font-size: 3rem;
+  font-size: 5rem;
   font-weight: 700;
-  letter-spacing: 0.1rem;
+  letter-spacing: 0.2rem;
+  color: var(--light);
 }
 
 .headline img {
