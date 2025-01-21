@@ -1,11 +1,12 @@
 import {Entertainment, Health, Sport, Science, Business, World, Tech4} from '../utils/imageIndex'
+import Footer from './components/Footer'
 import Navbar from './components/Navbar'
 
 const News = () => {
   return (
     <div className='news-app'>
       <div className='news-header'>
-        <h1 className='logo'>Global News</h1>
+        <h1 className='logo'>Atlas News</h1>
       </div>
       <div className="news-content">
         <Navbar />
@@ -42,6 +43,7 @@ const News = () => {
           </div>
         </div>
       </div>
+      <Footer />
     </div>
   )
 }
