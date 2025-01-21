@@ -1,4 +1,4 @@
-import {Business} from '../utils/imageIndex'
+import {Business} from '../../utils/imageIndex'
 
 export default function Headline() {
   return (

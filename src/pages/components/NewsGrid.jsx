@@ -1,4 +1,4 @@
-import {Entertainment, Health, Sport, Science, World, Tech4} from '../utils/imageIndex'
+import {Entertainment, Health, Sport, Science, World, Tech4} from '../../utils/imageIndex'
 
 export default function NewsGrid() {
   return (
