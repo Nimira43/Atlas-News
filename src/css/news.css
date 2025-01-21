@@ -21,6 +21,13 @@
   color: var(--light);
 }
 
+.logo {
+  font-family: 'Caveat', cursive;
+  font-size: 3rem;
+  font-weight: 700;
+  letter-spacing: 0.1rem;
+}
+
 .headline img {
   width: 40rem;
 }
