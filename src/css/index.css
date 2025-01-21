@@ -17,17 +17,22 @@ html {
 
 :root {
   --primary: #199be7;
-  --primary-light: #70b4f4;
+  --primary-light: #7ec2ea;
+  --primary-extra-light: #b9d9ec;
   --secondary: #e33a4a;
   --secondary-light: #ffc8c8;
   --dark: #111;
   --dark-light: #333;
-  --light: #fff1f0;
+  --light: #eef3ff;
   --grey-dark: #888;
   --grey: #ccc;
   --grey-light: #eee;
 }
 
-body {
-  
+.container {
+  width: 100%;
+  height: 100vh;
+  background-color: var(--light);
+  display: grid;
+  place-items: center;
 }
