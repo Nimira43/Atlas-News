@@ -1,5 +1,13 @@
 .news-app {
   width: clamp(35rem, 90cqi, 100rem);
+  height: 90vh;
+  background-color: var(--primary);
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: space-between;
+  row-gap: 2rem;
+  box-shadow: 0 2rem 3rem rgba(0, 0, 0, 0.5);
 }
 
 .headline img {
