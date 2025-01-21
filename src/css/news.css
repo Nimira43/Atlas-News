@@ -49,21 +49,19 @@
 .categories {
   display: flex;
   flex-direction: column;
-  row-gap: 3rem;
+  row-gap: 1.25rem;
 }
 
 .nav-heading {
-  font-size: 3rem;
+  font-size: 2rem;
   color: var(--light);
-  letter-spacing: 0.2rem;
-  margin-bottom: 2rem;
+  letter-spacing: 0.1rem;
+  margin-bottom: 1rem;
 }
 
 .nav-link {
   font-size: 1.5rem;
   color: var(--light);
-  text-transform: uppercase;
-  letter-spacing: 0.1rem;
 }
 
 .news-section {
@@ -101,6 +99,19 @@
   border-radius: 0 0 1rem 1rem;
 }
 
+ .news-grid {
+  width: 100%;
+  height: 55%;
+  background-color: var(primary);
+  border-radius: 1rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1f);
+  gap: 1rem;
+  padding: 1.2rem;
+  justify-items: center;
+  align-items: center;
+ }
 .news-grid-item img {
   width: 20rem;
 }
@@ -110,7 +121,7 @@
     font-size: 3.5rem;
   }
   .categories {
-    row-gap: 2rem;
+    row-gap: 0.75rem;
   }
   .news-section {
     overflow: hidden;
