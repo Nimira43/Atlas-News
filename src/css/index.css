@@ -3,4 +3,31 @@
 * {
   font-family: 'Poppins', sans-serif;
   font-weight: 300;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  outline: none;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+:root {
+  --primary: #199be7;
+  --primary-light: #70b4f4;
+  --secondary: #e33a4a;
+  --secondary-light: #ffc8c8;
+  --dark: #111;
+  --dark-light: #333;
+  --light: #fff1f0;
+  --grey-dark: #888;
+  --grey: #ccc;
+  --grey-light: #eee;
+}
+
+body {
+  
 }
