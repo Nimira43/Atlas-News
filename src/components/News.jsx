@@ -1,3 +1,5 @@
+import {Entertainment, Health, Sport, Science, Demo, Science, National, NoImage, World, Tech1, Tech2, Tech3, Tech4} from '../imageIndex'
+
 const News = () => {
   return (
     <div>
