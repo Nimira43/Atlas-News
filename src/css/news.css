@@ -1,7 +1,7 @@
 .news-app {
   width: clamp(35rem, 90cqi, 100rem);
   height: 90vh;
-  background-color: var(--primary);
+  background-color: var(--primary-light);
   border-radius: 1rem;
   display: flex;
   flex-direction: column;
@@ -10,10 +10,33 @@
   box-shadow: 0 2rem 3rem rgba(0, 0, 0, 0.5);
 }
 
+.news-header {
+  width: 100%;
+  min-height: 7rem;
+  background-color: var(--primary);
+  border-radius: 1rem 1rem 0 0;
+  display: flex;
+  align-items: center;
+  padding: 0 2rem;
+  color: var(--light);
+}
+
 .headline img {
   width: 40rem;
 }
 
 .news-grid-item img {
   width: 20rem;
+}
+
+@media (max-width: 1400px) {
+
+}
+
+@media (max-width: 900px) {
+
+}
+
+@media (max-width: 500px) {
+
 }
