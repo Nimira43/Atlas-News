@@ -52,6 +52,13 @@
   row-gap: 3rem;
 }
 
+.nav-heading {
+  font-size: 3rem;
+  color: var(--light);
+  letter-spacing: 0.2rem;
+  margin-bottom: 2rem;
+}
+
 .news-section {
   width: 80%;
 }
@@ -95,6 +102,9 @@
     flex-wrap: wrap;
     justify-content: center;
   }
+
+  
+
   .news-section {
     width: 100%;
   }
