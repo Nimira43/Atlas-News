@@ -7,6 +7,10 @@ const News = () => {
           <div className="user">User</div>
           <nav className="categories">Categories</nav>
         </div>
+        <div className="news-section">
+          <div className="headline">Headline</div>
+          <div className="news-grid">News Grid</div>
+        </div>
       </div>
     </div>
   )
