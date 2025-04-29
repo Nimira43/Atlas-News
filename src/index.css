@@ -91,6 +91,11 @@ html {
   border: none;
   border-radius: var(--border-radius);
   padding: 0 4rem 0 var(--rem-2);
+  transition: width 0.3s;
+}
+
+.search-bar input:focus {
+  width: 35rem;
 }
 
 .news-content {
