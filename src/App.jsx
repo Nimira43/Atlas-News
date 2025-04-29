@@ -3,7 +3,9 @@ import React from 'react'
 function App() {
   return (
     <div>
-      Nova News
+      <h1 className>Nova News</h1>
+      <hr />
+      <p>by NimiraTech</p>
     </div>
   )
 }
