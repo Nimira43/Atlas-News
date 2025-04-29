@@ -8,9 +8,9 @@
   --dark: #111;
   --light: #ffffd7;
   --support-blue: #196bde;
-  --support-blue-light: #a3c9ff;
-  --support-yellow: #f4d006;
-  --support-yellow-light: #fff5bf;
+  --support-blue-light: #cee0f9;
+  --support-yellow: #fffb00;
+  --support-yellow-light: #ffffc7;
   --grey-dark: #333;
   --grey-medium: #898989;
   --grey-light: #ccc;
@@ -46,4 +46,11 @@ html {
   background-color: var(--light);
   display: grid;
   place-items: center;
+}
+
+.news-blog-app {
+  width: 95vw;
+  height: 95vmin;
+  background-color: var(--support-yellow-light);box-shadow: var(--box-shadow-light);
+  border-radius: 0.3rem;
 }
