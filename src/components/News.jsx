@@ -1,3 +1,6 @@
+import Calendar from "./Calendar"
+import Weather from "./Weather"
+
 const News = () => {
   return (
     <div className='news'>
@@ -11,6 +14,9 @@ const News = () => {
           <div className="headline">Headline</div>
           <div className="news-grid">News Grid</div>
         </div>
+        <div className="my-blogs">My Blogs</div>
+        <Weather />
+        <Calendar />
       </div>
     </div>
   )
