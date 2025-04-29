@@ -1,7 +1,13 @@
 const News = () => {
   return (
-    <div>
-      <h1>Nova News</h1>
+    <div className='news'>
+      <header className='news-header'>News Header</header>
+      <div className="news-content">
+        <div className="navbar">
+          <div className="user">User</div>
+          <nav className="categories">Categories</nav>
+        </div>
+      </div>
     </div>
   )
 }
