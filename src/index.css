@@ -8,9 +8,9 @@
   --dark: #111;
   --light: #ffffd7;
   --support-blue: #196bde;
-  --support-blue-light: #cee0f9;
+  --support-blue-light: #e9f3ff;
   --support-yellow: #fffb00;
-  --support-yellow-light: #ffffc7;
+  --support-yellow-light: #ffffc8;
   --grey-dark: #333;
   --grey-medium: #898989;
   --grey-light: #ccc;
@@ -64,4 +64,10 @@ html {
   flex-direction: column;
   justify-content: space-between;
   gap: 2rem;
+}
+
+.news-header {
+  width: 100%;
+  min-height: 7rem;
+  background-color: var(--support-blue-light);border-radius: 0.3rem 0.3rem 0 0;
 }
