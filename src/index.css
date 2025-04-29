@@ -19,6 +19,8 @@
   --box-shadow-dark: 3px 6px 12px rgba(0, 0, 0, 0.2);
   --box-shadow-yellow: 2px 4px 8px rgba(255, 223, 90, 0.15);
   --box-shadow-blue: 2px 4px 8px rgba(50, 100, 200, 0.15);
+  --border-radius: 0.3rem;
+  --rem-2: 2rem;
 }
 
 * {
@@ -52,31 +54,31 @@ html {
   width: 95vw;
   height: 95vmin;
   background-color: var(--support-yellow-light);box-shadow: var(--box-shadow-dark);
-  border-radius: 0.3rem;
+  border-radius: var(--border-radius);
 }
 
 .news {
-  font-size: 2rem;
+  font-size: var(--rem-2);
   color: var(--grey-dark);
   height: 100%;
   width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  gap: 2rem;
+  gap: var(--rem-2);
 }
 
 .news-header {
   width: 100%;
   min-height: 7rem;
-  background-color: var(--support-blue-light);border-radius: 0.3rem 0.3rem 0 0;
+  background-color: var(--support-blue-light);border-radius: var(--border-radius) var(--border-radius) 0 0;
 }
 
 .news-content {
   display: flex;
-  column-gap: 2rem;
+  column-gap: var(--rem-2);
   height: calc(100% - 16rem);
-  padding: 0 2rem;
+  padding: 0 var(--rem-2);
 }
 
 .navbar {
@@ -84,32 +86,39 @@ html {
   height: 100%;
   display: flex;
   flex-direction: column;
-  row-gap: 2rem;
+  row-gap: var(--rem-2);
 }
 
 .user {
   width: 100%;
   height: 20%;
   background-color: var(--support-blue-light);
-  border-radius: 0.3rem;
+  border-radius: var(--border-radius);
 } 
 
 .categories {
   width: 100%;
-  height: calc(80% - 2rem);
+  height: calc(80% - var(--rem-2));
   background-color: var(--support-blue-light);
-  border-radius: 0.3rem;
+  border-radius: var(--border-radius);
 }
 
 .news-section {
   width: clamp(30rem, 43cqi, 40%);
   height: 100%;
-  border-radius: 1rem;
+  border-radius: var(--border-radius);
+}
+
+.headline {
+  width: 100%;
+  height: calc(50% - var(--rem-2));
+  background-color: var(--support-blue-light);
+  border-radius: var(--border-radius);
 }
 
 .news-footer {
   width: 100%;
   min-height: 5rem;
   background-color: var(--support-blue-light); 
-  border-radius: 0 0 0.3rem 0.3rem;
+  border-radius: 0 0 var(--border-radius) var(--border-radius);
 }
