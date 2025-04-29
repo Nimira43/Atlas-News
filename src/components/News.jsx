@@ -7,12 +7,12 @@ const News = () => {
       <header className='news-header'>News Header</header>
       <div className='news-content'>
         <div className='navbar'>
-          <div className='user'>User</div>
-          <nav className='categories'>Categories</nav>
+          <div className='user bg-box'>User</div>
+          <nav className='categories bg-box'>Categories</nav>
         </div>
         <div className='news-section'>
-          <div className='headline'>Headline</div>
-          <div className='news-grid'>News Grid</div>
+          <div className='headline bg-box'>Headline</div>
+          <div className='news-grid bg-box'>News Grid</div>
         </div>
         <div className='my-blogs'>My Blogs</div>
         <div className='weather-calendar'>

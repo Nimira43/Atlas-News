@@ -91,18 +91,26 @@ html {
   row-gap: var(--rem-2);
 }
 
+
+
+
+.bg-box {
+  background-color: var(--support-blue-light);
+  border-radius: var(--border-radius);
+}
+
 .user {
   width: 100%;
   height: 20%;
-  background-color: var(--support-blue-light);
-  border-radius: var(--border-radius);
+  /* background-color: var(--support-blue-light);
+  border-radius: var(--border-radius); */
 } 
 
 .categories {
   width: 100%;
   height: calc(80% - var(--rem-2));
-  background-color: var(--support-blue-light);
-  border-radius: var(--border-radius);
+  /* background-color: var(--support-blue-light);
+  border-radius: var(--border-radius); */
 }
 
 .news-section {
@@ -114,9 +122,16 @@ html {
 .headline {
   width: 100%;
   height: calc(50% - var(--rem-2));
-  background-color: var(--support-blue-light);
-  border-radius: var(--border-radius);
+  /* background-color: var(--support-blue-light);
+  border-radius: var(--border-radius); */
   margin-bottom: var(--rem-2);
+}
+
+.news-grid {
+  width: 100%;
+  height: 50%;
+  /* background-color: var(--support-blue-light);
+  border-radius: var(--border-radius); */
 }
 
 .news-footer {
@@ -125,3 +140,4 @@ html {
   background-color: var(--support-blue-light); 
   border-radius: 0 0 var(--border-radius) var(--border-radius);
 }
+
