@@ -92,6 +92,13 @@ html {
   height: 20%;
   background-color: var(--support-blue-light);
   border-radius: 0.3rem;
+} 
+
+.categories {
+  width: 100%;
+  height: calc(80% - 2rem);
+  background-color: var(--support-blue-light);
+  border-radius: 0.3rem;
 }
 
 .news-footer {
