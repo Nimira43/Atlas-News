@@ -164,6 +164,16 @@ html {
 
 /* Media Queries */
 
+@media (max-width: 1400px) {
+  .categories {
+    row-gap: 2rem
+  }
+  .news-section {
+    overflow: hidden;
+  } 
+}
+
+
 @media (max-width: 500px) {
   html {
     font-size: 55%;
