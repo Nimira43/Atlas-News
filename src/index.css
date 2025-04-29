@@ -57,7 +57,7 @@ html {
 
 .news {
   font-size: 2rem;
-  color: var(--dark);
+  color: var(--grey-dark);
   height: 100%;
   width: 100%;
   display: flex;
@@ -77,4 +77,11 @@ html {
   column-gap: 2rem;
   height: calc(100% - 16rem);
   padding: 0 2rem;
+}
+
+.news-footer {
+  width: 100%;
+  min-height: 5rem;
+  background-color: var(--support-blue-light); 
+  border-radius: 0 0 0.3rem 0.3rem;
 }
