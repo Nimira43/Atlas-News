@@ -83,6 +83,16 @@ html {
   letter-spacing: 0.2rem;;
 }
 
+.search-bar input {
+  width: 25rem;
+  height: 4rem;
+  color: var(--grey-dark);
+  background-color: var(--support-yellow-light);
+  border: none;
+  border-radius: var(--border-radius);
+  padding: 0 4rem 0 var(--rem-2);
+}
+
 .news-content {
   display: flex;
   column-gap: var(--rem-2);
