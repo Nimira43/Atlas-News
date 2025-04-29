@@ -17,8 +17,9 @@ const News = () => {
         <div className='my-blogs'>My Blogs</div>
         <Weather />
         <Calendar />
-        <footer className='news-footer'>Footer</footer>
+        
       </div>
+      <footer className='news-footer'>Footer</footer>
     </div>
   )
 }

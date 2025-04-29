@@ -54,3 +54,10 @@ html {
   background-color: var(--support-yellow-light);box-shadow: var(--box-shadow-light);
   border-radius: 0.3rem;
 }
+
+.news {
+  font-size: 2rem;
+  color: var(--dark);
+  height: 100%;
+  width: 100%;
+}
