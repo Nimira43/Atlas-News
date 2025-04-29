@@ -144,17 +144,23 @@ html {
   row-gap: var(--rem-2);
 }
 
+.weather,
+.calendar {
+  width: 100%;
+  min-width: 28rem;
+}
+
 /* Weather Component */
 
 .weather {
-  width: 100%;
-  min-height: 28rem;
   height: 45%;
 }
 
 /* Calendar Component */
 
-
+.calendar {
+  height: calc(55% - 2rem);
+}
 
 /* Media Queries */
 

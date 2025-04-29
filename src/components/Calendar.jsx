@@ -1,6 +1,6 @@
 const Calendar = () => {
   return (
-    <div className='calendar'>
+    <div className='calendar bg-box'>
       Calendar Section     
     </div>
   )
