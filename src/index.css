@@ -58,6 +58,8 @@ html {
   border-radius: var(--border-radius);
 }
 
+/* News Component */
+
 .news {
   font-size: var(--rem-2);
   color: var(--grey-dark);
@@ -144,4 +146,17 @@ html {
   background-color: var(--support-blue-light); 
   border-radius: 0 0 var(--border-radius) var(--border-radius);
 }
+
+.weather-calendar {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  row-gap: var(--rem-2);
+}
+
+/* Weather Component */
+
+
+
+/* Calendar Component */
 
