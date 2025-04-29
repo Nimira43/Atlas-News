@@ -201,6 +201,15 @@ html {
   html {
     font-size: 55%;
   }
+  .navbar {
+    height: 20rem;
+  }
+  footer {
+    min-height: 8rem;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 1rem;;
+  }
 }
 
 @media (max-width: 400px) {
