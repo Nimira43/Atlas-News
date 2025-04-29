@@ -1,4 +1,5 @@
 import Calendar from './Calendar'
+import Footer from './Footer'
 import Header from './Header'
 import Weather from './Weather'
 
@@ -21,7 +22,7 @@ const News = () => {
           <Calendar />
         </div>
       </div>
-      <footer className='news-footer'>Footer</footer>
+      <Footer />
     </div>
   )
 }
