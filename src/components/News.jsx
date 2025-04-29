@@ -1,10 +1,11 @@
 import Calendar from './Calendar'
+import Header from './Header'
 import Weather from './Weather'
 
 const News = () => {
   return (
     <div className='news'>
-      <header className='news-header'>News Header</header>
+      <Header />
       <div className='news-content'>
         <div className='navbar'>
           <div className='user bg-box'>User</div>
