@@ -53,7 +53,8 @@ html {
 .news-blog-app {
   width: 95vw;
   height: 95vmin;
-  background-color: var(--support-yellow-light);box-shadow: var(--box-shadow-dark);
+  background-color: var(--support-yellow-light);
+  box-shadow: var(--box-shadow-dark);
   border-radius: var(--border-radius);
 }
 
@@ -71,7 +72,8 @@ html {
 .news-header {
   width: 100%;
   min-height: 7rem;
-  background-color: var(--support-blue-light);border-radius: var(--border-radius) var(--border-radius) 0 0;
+  background-color: var(--support-blue-light);
+  border-radius: var(--border-radius) var(--border-radius) 0 0;
 }
 
 .news-content {
@@ -114,6 +116,7 @@ html {
   height: calc(50% - var(--rem-2));
   background-color: var(--support-blue-light);
   border-radius: var(--border-radius);
+  margin-bottom: var(--rem-2);
 }
 
 .news-footer {
