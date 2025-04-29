@@ -91,9 +91,6 @@ html {
   row-gap: var(--rem-2);
 }
 
-
-
-
 .bg-box {
   background-color: var(--support-blue-light);
   border-radius: var(--border-radius);
@@ -122,9 +119,9 @@ html {
 .headline {
   width: 100%;
   height: calc(50% - var(--rem-2));
+  margin-bottom: var(--rem-2);
   /* background-color: var(--support-blue-light);
   border-radius: var(--border-radius); */
-  margin-bottom: var(--rem-2);
 }
 
 .news-grid {
@@ -132,6 +129,13 @@ html {
   height: 50%;
   /* background-color: var(--support-blue-light);
   border-radius: var(--border-radius); */
+}
+
+.my-blogs {
+  width: clamp(20rem, 27cqi, 28%);
+  height: 100%;
+  /* background-color: var(--support-blue-light);
+    border-radius: var(--border-radius); */
 }
 
 .news-footer {

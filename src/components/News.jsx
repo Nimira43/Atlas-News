@@ -14,7 +14,7 @@ const News = () => {
           <div className='headline bg-box'>Headline</div>
           <div className='news-grid bg-box'>News Grid</div>
         </div>
-        <div className='my-blogs'>My Blogs</div>
+        <div className='my-blogs bg-box'>My Blogs</div>
         <div className='weather-calendar'>
           <Weather />
           <Calendar />
