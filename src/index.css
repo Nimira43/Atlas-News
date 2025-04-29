@@ -160,3 +160,18 @@ html {
 
 /* Calendar Component */
 
+
+
+/* Media Queries */
+
+@media (max-width: 500px) {
+  html {
+    font-size: 55%;
+  }
+}
+
+@media (max-width: 400px) {
+  html {
+    font-size: 45%;
+  }
+}
