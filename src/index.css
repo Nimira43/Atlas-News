@@ -58,7 +58,7 @@ html {
   border-radius: var(--border-radius);
 }
 
-/* News Component */
+/* News, Header and Footer Components */
 
 .news {
   font-size: var(--rem-2);
@@ -76,6 +76,10 @@ html {
   min-height: 7rem;
   background-color: var(--support-blue-light);
   border-radius: var(--border-radius) var(--border-radius) 0 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 4rem;
 }
 
 .news-content {
