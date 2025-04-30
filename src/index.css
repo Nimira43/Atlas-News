@@ -162,6 +162,10 @@ html {
 .categories {
   width: 100%;
   height: calc(80% - var(--rem-2));
+  display: flex;
+  flex-direction: column;
+  row-gap: var(--rem-2);
+  padding: var(--rem-2);
 }
 
 .news-section {
