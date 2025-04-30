@@ -154,6 +154,11 @@ html {
   border-radius: 50%;
 }
 
+.user p {
+  text-transform: uppercase;
+  font-size: 1.5rem;
+}
+
 .categories {
   width: 100%;
   height: calc(80% - var(--rem-2));
@@ -231,8 +236,16 @@ html {
   .logo {
     font-size: 3rem;
   }
+  .user {
+    color: var(--support-blue);
+    background-color: transparent;
+  }
   .user img {
     display: none;
+  }  
+  .user p {
+    font-size: 2rem;
+    font-weight: 400;
   }
   .news-content {
     flex-direction: column;
