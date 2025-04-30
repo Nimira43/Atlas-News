@@ -98,6 +98,10 @@ html {
   width: 35rem;
 }
 
+.search-bar input:focus::placeholder {
+  color: transparent;
+}
+
 .news-content {
   display: flex;
   column-gap: var(--rem-2);
