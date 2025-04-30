@@ -78,7 +78,7 @@ html {
 
 .logo {
   font-family: var(--logo-font);
-  font-size: 5rem;
+  font-size: 4rem;
   color: var(--support-blue);
   letter-spacing: 0.2rem;;
 }
@@ -215,6 +215,9 @@ html {
 }
 
 @media (max-width: 900px) {
+  .logo {
+    font-size: 3rem;
+  }
   .news-content {
     flex-direction: column;
     width: 100%;
@@ -237,7 +240,7 @@ html {
     width: 100%;
   }
   .search-bar input:focus {
-    width: 28rem;
+    width: 30rem;
   }
 }
 
