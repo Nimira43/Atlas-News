@@ -77,14 +77,14 @@ html {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 4rem;
+  padding: 0 var(--rem-4);
 }
 
 .logo {
   font-family: var(--logo-font);
-  font-size: 4rem;
+  font-size: var(--rem-4);
   color: var(--support-blue);
-  letter-spacing: 0.1rem;;
+  letter-spacing: var(--letter-spacing);
 }
 
 .search-bar {
@@ -93,12 +93,12 @@ html {
 
 .search-bar input {
   width: 25rem;
-  height: 4rem;
+  height: var(--rem-4);
   color: var(--grey-dark);
   background-color: var(--support-yellow-light);
   border: none;
   border-radius: var(--border-radius);
-  padding: 0 4rem 0 var(--rem-2);
+  padding: 0 var(--rem-4) 0 var(--rem-2);
   transition: width 0.3s;
 }
 
@@ -116,7 +116,7 @@ html {
   border: none;
   position: absolute;
   top: 50%;
-  right: 1rem;
+  right: var(--rem-1);
   transform: translateY(-30%);
 }
 
@@ -147,7 +147,7 @@ html {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  row-gap: 1rem;
+  row-gap: var(--rem-1);
   cursor: pointer;
 } 
 
@@ -161,7 +161,7 @@ html {
 .user p {
   text-transform: uppercase;
   font-size: 1.5rem;
-  letter-spacing: 0.1rem;
+  letter-spacing: var(--letter-spacing);
 }
 
 .categories {
@@ -177,14 +177,14 @@ html {
   text-transform: uppercase;
   font-size: clamp(1.5rem, 2.5cqi, 3rem);
   color: var(--grey-dark);
-  letter-spacing: 0.1rem;
+  letter-spacing: var(--letter-spacing);
   /* margin-bottom: var(--rem-2); */
 }
 
 .nav-links {
   display: flex;
   flex-direction: column;
-  row-gap: 1rem;
+  row-gap: var(--rem-1);
 }
 
 .nav-link {
@@ -223,7 +223,7 @@ html {
 
 .news-footer {
   width: 100%;
-  min-height: 5rem;
+  min-height: var(--rem-5);
   background-color: var(--support-blue-light); 
   border-radius: 0 0 var(--border-radius) var(--border-radius);
 }
@@ -250,7 +250,7 @@ html {
 /* Calendar Component */
 
 .calendar {
-  height: calc(55% - 2rem);
+  height: calc(55% - var(--rem-2));
 }
 
 /* Media Queries */
@@ -279,7 +279,7 @@ html {
     display: none;
   }  
   .user p {
-    font-size: 2rem;
+    font-size: var(--rem-2);
     font-weight: 400;
   }
   .news-content {
@@ -319,7 +319,7 @@ html {
     min-height: 8rem;
     flex-direction: column;
     justify-content: center;
-    row-gap: 1rem;;
+    row-gap: var(--rem-1);
   }
 }
 
