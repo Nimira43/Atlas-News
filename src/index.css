@@ -83,6 +83,10 @@ html {
   letter-spacing: 0.2rem;;
 }
 
+.search-bar {
+  position: relative;
+}
+
 .search-bar input {
   width: 25rem;
   height: 4rem;
@@ -100,6 +104,16 @@ html {
 
 .search-bar input:focus::placeholder {
   color: transparent;
+}
+
+.search-bar button {
+  background-color: transparent;
+  color: var(--grey-dark);
+  border: none;
+  position: absolute;
+  top: 50%;
+  right: 1rem;
+  transform: translateY(-30%);
 }
 
 .news-content {
