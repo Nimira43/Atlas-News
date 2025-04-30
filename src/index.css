@@ -178,7 +178,6 @@ html {
   font-size: clamp(1.5rem, 2.5cqi, 3rem);
   color: var(--grey-dark);
   letter-spacing: var(--letter-spacing);
-  /* margin-bottom: var(--rem-2); */
 }
 
 .nav-links {
