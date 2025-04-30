@@ -18,7 +18,11 @@
   --box-shadow-yellow: 2px 4px 8px rgba(255, 223, 90, 0.15);
   --box-shadow-blue: 2px 4px 8px rgba(50, 100, 200, 0.15);
   --border-radius: 0.3rem;
+  --rem-1: 1rem;
   --rem-2: 2rem;
+  --rem-4: 4rem;
+  --rem-5: 5rem;
+  --letter-spacing: 0.1rem;
 }
 
 * {
@@ -80,7 +84,7 @@ html {
   font-family: var(--logo-font);
   font-size: 4rem;
   color: var(--support-blue);
-  letter-spacing: 0.2rem;;
+  letter-spacing: 0.1rem;;
 }
 
 .search-bar {
@@ -157,6 +161,7 @@ html {
 .user p {
   text-transform: uppercase;
   font-size: 1.5rem;
+  letter-spacing: 0.1rem;
 }
 
 .categories {
@@ -166,6 +171,32 @@ html {
   flex-direction: column;
   row-gap: var(--rem-2);
   padding: var(--rem-2);
+}
+
+.nav-heading {
+  text-transform: uppercase;
+  font-size: clamp(1.5rem, 2.5cqi, 3rem);
+  color: var(--grey-dark);
+  letter-spacing: 0.1rem;
+  /* margin-bottom: var(--rem-2); */
+}
+
+.nav-links {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+}
+
+.nav-link {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  color: var(--grey-dark);
+  transition: color 0.5s ease-in-out;
+}
+
+.nav-link:hover {
+  color: var(--support-blue);
 }
 
 .news-section {
