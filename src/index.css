@@ -190,7 +190,7 @@ html {
 .nav-link {
   font-size: 1.5rem;
   text-transform: uppercase;
-  letter-spacing: 0.1rem;
+  letter-spacing: var(--letter-spacing);
   color: var(--grey-dark);
   transition: color 0.5s ease-in-out;
 }
@@ -296,15 +296,36 @@ html {
     row-gap: 0;
   }
   .categories {
+    background-color: transparent;
+    text-align: center;
+  }
+  .nav-links {
+    
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
+  }
+  .nav-heading {
+    color: var(--support-blue);
+    font-size: var(--rem-2);
+    font-weight: 400;
+  }
+  .nav-link {
+    margin-right: var(--rem-2);
+    font-size: 1.8rem;
   }
   .news-section {
     width: 100%;
   }
   .search-bar input:focus {
     width: 30rem;
+  }
+}
+
+@media (max-width: 860px) {
+  .categories {
+    margin-bottom: var(--rem-2);
   }
 }
 
