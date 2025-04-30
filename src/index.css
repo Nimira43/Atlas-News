@@ -203,6 +203,9 @@ html {
 /* Media Queries */
 
 @media (max-width: 1400px) {
+  .logo {
+    font-size: 3.5rem;
+  }
   .categories {
     row-gap: var(--rem-2);
   }
@@ -232,6 +235,9 @@ html {
   }
   .news-section {
     width: 100%;
+  }
+  .search-bar input:focus {
+    width: 28rem;
   }
 }
 
