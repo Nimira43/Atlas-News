@@ -3,20 +3,12 @@
 :root {
   --main-font: 'Smooch Sans', sans-serif;
   --logo-font: 'Amatic SC', sans-serif;
-  --dark: #111;
-  --light: #ffffd7;
-  --support-blue: #196bde;
-  --support-blue-light: #e9f3ff;
-  --support-yellow: #fffb00;
-  --support-yellow-light: #ffffc8;
-  --grey-dark: #333;
-  --grey-medium: #898989;
-  --grey-light: #ccc;
-  --grey-light-extra: #eee;
-  --box-shadow-light: 2px 4px 8px rgba(0, 0, 0, 0.15);
-  --box-shadow-dark: 3px 6px 12px rgba(0, 0, 0, 0.2);
-  --box-shadow-yellow: 2px 4px 8px rgba(255, 223, 90, 0.15);
-  --box-shadow-blue: 2px 4px 8px rgba(50, 100, 200, 0.15);
+  --dark: #333;
+  --blue-dark: #196bde;
+  --blue-light: #e9f3ff;
+  --yellow-light: #ffffc8;
+  --grey-light: #eee;
+  --box-shadow: 3px 6px 12px rgba(0, 0, 0, 0.2);
   --border-radius: 0.3rem;
   --rem-1: 1rem;
   --rem-2: 2rem;
@@ -43,7 +35,7 @@ html {
 .container {
   width: 100%;
   height: 100vh;
-  background-color: var(--grey-light-extra);
+  background-color: var(--grey-light);
   display: grid;
   place-items: center;
 }
@@ -51,16 +43,14 @@ html {
 .news-blog-app {
   width: 95vw;
   height: 95vmin;
-  background-color: var(--support-yellow-light);
-  box-shadow: var(--box-shadow-dark);
+  background-color: var(--yellow-light);
+  box-shadow: var(--box-shadow);
   border-radius: var(--border-radius);
 }
 
-/* News, Header and Footer Components */
-
 .news {
   font-size: var(--rem-2);
-  color: var(--grey-dark);
+  color: var(--dark);
   height: 100%;
   width: 100%;
   display: flex;
@@ -72,7 +62,7 @@ html {
 .news-header {
   width: 100%;
   min-height: 7rem;
-  background-color: var(--support-blue-light);
+  background-color: var(--blue-light);
   border-radius: var(--border-radius) var(--border-radius) 0 0;
   display: flex;
   justify-content: space-between;
@@ -83,7 +73,7 @@ html {
 .logo {
   font-family: var(--logo-font);
   font-size: var(--rem-4);
-  color: var(--support-blue);
+  color: var(--blue-dark);
   letter-spacing: var(--letter-spacing);
 }
 
@@ -94,8 +84,8 @@ html {
 .search-bar input {
   width: 25rem;
   height: var(--rem-4);
-  color: var(--grey-dark);
-  background-color: var(--support-yellow-light);
+  color: var(--dark);
+  background-color: var(--yellow-light);
   border: none;
   border-radius: var(--border-radius);
   padding: 0 var(--rem-4) 0 var(--rem-2);
@@ -112,7 +102,7 @@ html {
 
 .search-bar button {
   background-color: transparent;
-  color: var(--grey-dark);
+  color: var(--dark);
   border: none;
   position: absolute;
   top: 50%;
@@ -136,7 +126,7 @@ html {
 }
 
 .bg-box {
-  background-color: var(--support-blue-light);
+  background-color: var(--blue-light);
   border-radius: var(--border-radius);
 }
 
@@ -176,7 +166,7 @@ html {
 .nav-heading {
   text-transform: uppercase;
   font-size: clamp(1.5rem, 2.5cqi, 3rem);
-  color: var(--grey-dark);
+  color: var(--dark);
   letter-spacing: var(--letter-spacing);
 }
 
@@ -190,12 +180,12 @@ html {
   font-size: 1.5rem;
   text-transform: uppercase;
   letter-spacing: var(--letter-spacing);
-  color: var(--grey-dark);
+  color: var(--dark);
   transition: color 0.5s ease-in-out;
 }
 
 .nav-link:hover {
-  color: var(--support-blue);
+  color: var(--blue-dark);
 }
 
 .news-section {
@@ -223,7 +213,7 @@ html {
 .news-footer {
   width: 100%;
   min-height: var(--rem-5);
-  background-color: var(--support-blue-light); 
+  background-color: var(--blue-light); 
   border-radius: 0 0 var(--border-radius) var(--border-radius);
 }
 
@@ -240,19 +230,13 @@ html {
   min-width: 28rem;
 }
 
-/* Weather Component */
-
 .weather {
   height: 45%;
 }
 
-/* Calendar Component */
-
 .calendar {
   height: calc(55% - var(--rem-2));
 }
-
-/* Media Queries */
 
 @media (max-width: 1400px) {
   .logo {
@@ -271,7 +255,7 @@ html {
     font-size: 3rem;
   }
   .user {
-    color: var(--support-blue);
+    color: var(--blue-dark);
     background-color: transparent;
   }
   .user img {
@@ -298,15 +282,14 @@ html {
     background-color: transparent;
     text-align: center;
   }
-  .nav-links {
-    
+  .nav-links {  
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
   }
   .nav-heading {
-    color: var(--support-blue);
+    color: var(--blue-dark);
     font-size: var(--rem-2);
     font-weight: 400;
   }
