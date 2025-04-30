@@ -139,7 +139,20 @@ html {
 .user {
   width: 100%;
   height: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 1rem;
+  cursor: pointer;
 } 
+
+.user img {
+  width: 5rem;
+  aspect-ratio: 1;
+  object-fit: cover;
+  border-radius: 50%;
+}
 
 .categories {
   width: 100%;
@@ -217,6 +230,9 @@ html {
 @media (max-width: 900px) {
   .logo {
     font-size: 3rem;
+  }
+  .user img {
+    display: none;
   }
   .news-content {
     flex-direction: column;
